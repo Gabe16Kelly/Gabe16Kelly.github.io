@@ -1,0 +1,208 @@
+h1{
+  font-family: 'Oswald', sans-serif;
+  font-weight:700;
+  font-size: 80px;
+
+  color: #4c474d;
+    color: #c671d9;
+}
+h2{
+  font-family: 'Oswald', sans-serif;
+  font-weight:500;
+  font-size: 20px;
+}
+h3{
+  font-family: 'Oswald', sans-serif;
+  font-weight:400;
+  font-size: 20px;
+  color: #928894;
+}
+p{
+  font-family: "Verdana";
+  font-size: 16px;
+  color: #928894;
+  line-height: 30px;
+}
+li{
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+/* The side navigation menu */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: #c068d4;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Verdana";
+}
+
+/* Active/current link */
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.about {
+  margin-left: 250px;
+  padding: 1px 30px;
+  height: 700px;
+  border-bottom: 1px solid black;
+}
+.about h1{
+  margin-top: 150px;
+  margin-bottom: 0;
+}
+.about h3{
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+div.project {
+  margin-left: 250px;
+  padding: 1px 30px;
+  height: auto;
+  border-bottom: 1px solid black;
+}
+.project h1{
+  font-family: 'Oswald', sans-serif;
+  font-weight:500;
+  margin-top: 50px;
+}
+.project h2{
+  margin: 0;
+  font-size: 30px;
+}
+.project h3{
+  margin-top: 0;
+}
+.content1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+  border-bottom: 1px dotted black;
+}
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+iframe{
+  width: 1200px;
+  height: 600px;
+  padding: 50px;
+}
+
+  .project img{
+    width:  400px;
+    height: auto;
+    background-size: cover;
+    margin-bottom: 20px;
+  }
+
+  div.skills {
+    margin-left: 250px;
+    padding: 1px 30px;
+    height: auto;
+    border-bottom: 1px solid black;
+  }
+  div.interests {
+    margin-left: 250px;
+    padding: 1px 30px;
+    height: auto;
+    border-bottom: 1px solid black;
+  }
+  div.education {
+    margin-left: 250px;
+    padding: 1px 30px;
+    height: auto;
+    border-bottom: 1px solid black;
+  }
+  div.video {
+    margin-left: 250px;
+    padding: 1px 30px;
+    height: auto;
+    border-bottom: 1px solid black;
+  }
+
+  .icons img{
+    width:  60px;
+    height: auto;
+    background-size: cover;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    filter: grayscale(100%);
+  }
+  .icons img:hover:not(.active) {
+        filter: grayscale(0%);
+  }
+  .movies img{
+    width: auto;
+    height: 300px;
+    background-size: cover;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .games img{
+    width: auto;
+    height: 300px;
+    background-size: cover;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.about {margin-left: 0;}
+  div.project {margin-left: 0;}
+  div.skills {margin-left: 0;}
+  div.interests {margin-left: 0;}
+  div.video {margin-left: 0;}
+  div.education {margin-left: 0;}
+  div.content1{margin-left: 0;
+    flex-wrap: wrap;}
+  .project img{
+    width: 250px;
+    height: auto;
+  }
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
