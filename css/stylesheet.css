@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 h1{
   font-family: 'Oswald', sans-serif;
   font-weight:700;
@@ -91,9 +94,14 @@ div.project {
 .project h2{
   margin: 0;
   font-size: 30px;
+    margin-bottom: 10px;
 }
 .project h3{
   margin-top: 0;
+}
+.project p{
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .content1 {
   display: flex;
@@ -103,13 +111,9 @@ div.project {
   margin-bottom: 50px;
   border-bottom: 1px dotted black;
 }
-.video {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 iframe{
-  width: 1200px;
+  width: 1100px;
   height: 600px;
   padding: 50px;
 }
@@ -139,12 +143,8 @@ iframe{
     height: auto;
     border-bottom: 1px solid black;
   }
-  div.video {
-    margin-left: 250px;
-    padding: 1px 30px;
-    height: auto;
-    border-bottom: 1px solid black;
-  }
+
+
 
   .icons img{
     width:  60px;
@@ -166,6 +166,11 @@ iframe{
     margin-top: 20px;
     margin-bottom: 20px;
   }
+
+  .concept img{
+    width: 700px;
+    height: auto;
+  }
   .games img{
     width: auto;
     height: 300px;
@@ -185,11 +190,12 @@ iframe{
     position: relative;
   }
   .sidebar a {float: left;}
-  div.about {margin-left: 0;}
+  div.about {margin-left: 0;
+  height: auto;}
   div.project {margin-left: 0;}
   div.skills {margin-left: 0;}
   div.interests {margin-left: 0;}
-  div.video {margin-left: 0;}
+  div.video1 {margin-left: 0;}
   div.education {margin-left: 0;}
   div.content1{margin-left: 0;
     flex-wrap: wrap;}

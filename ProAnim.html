@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-    <title>Gabriel Kelly Portfolio</title>
+    <title>PROCEDURAL ANIMATION</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,32 +16,40 @@
 
   <!-- The sidebar -->
   <div class="sidebar">
-    <a href="#news">ABOUT</a>
-    <a href="#contact">PROJECTS</a>
-    <a href="#about">SKILLS</a>
-    <a href="#about">INTERESTS</a>
+    <a href="index.html">HOME</a>
+    <a href="#about">ABOUT</a>
+    <a href="#development">DEVELOPMENT</a>
+    <a href="#skills">SKILLS</a>
+    <a href="#inspiration">INSPIRATION</a>
   </div>
 
   <!-- Page content -->
+      <a id="about">
   <div class="about">
+
 <h1>PROCEDURAL ANIMATION</h1>
 <h3>UNITY - C# - ANIMATION AND RIGGING</h3>
 <br>
-<p>My final year project consisted of the research, development and implementation of a animation concept called Procedural Animation.
-  My goal was to creating a locomotion system that is more realistic and diverse compared to traditional keyframe animation, to read a more indepth explanation click <a href="ProceduralAnimationShowcase.pdf">here</a> <p>
+<p>My final year project consisted of the research, development and implementation of an animation concept called Procedural Animation. My goal was to create a locomotion system that is more realistic and diverse compared to traditional keyframe animation.<br><br>
+  My dissertation for this project can be accessed <a href="ProceduralAnimationShowcase.pdf">here</a><p>
   </div>
 
-  <div class="video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IrigbqzcJuw?si=_LRl0k2NN9nDoceB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  </div>
+
 
 
   <div class="project">
+    <div class="video1">
+      <p>This video below shows the final outcome of my project, the focus of the project was the animation and how the legs step with the body while sitting comfortably on the environment.
+        The spider model was taken from the Unity Assets store due to its detailed rig and model, though the algorithm I created for the animation is compaitble across multiple rigs.
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/IrigbqzcJuw?si=_LRl0k2NN9nDoceB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+      <a id="development">
     <h1>DEVELOPMENT</h1>
+
     <br>
       <h2>INSPIRATION</H2>
       <div class ="content1">
-      <p>If Procedural Animation had a final boss <a href="https://youtu.be/S36CH4cbW1A?si=O2uJp1aq43eoTV1o">this video</a> would be it, the second I saw it I was hooked! I knew I needed to try out the concept for myself, "How hard could it be"!
+      <p>If Procedural Animation had a final boss <a href="https://youtu.be/S36CH4cbW1A?si=O2uJp1aq43eoTV1o">this video</a> would be it, the second I saw it I was hooked! I knew I needed to try out the concept for myself, "How hard could it be"?
       Commonly used in many video games for simple animations such as the head looking towards an object or a hand touching the wall, I found it was quite effective used on multi leg creatures, which made me interested in using a spider model for this project as it allowed me to create expressive leg movements that bend and step clearly.
       </p>
       <img src= "images/PA1.png" alt="Procedurals Animation"></img>
@@ -60,7 +68,7 @@
       </div>
       <h2>CHALLENGES</H2>
       <div class ="content1">
-      <img src= "images/PA2.png" alt="Procedurals Animation"></img>
+      <img src= "images/PA4.png" alt="Procedurals Animation"></img>
       <p>One of the main challenges and first challenges I had to overcome was keeping the models feet stuck to the ground.
       This problem persisted for quite a while creating very annoying but entertaing "bugs" (no pun intented) making the legs of the spider fly sporadically in the air!
       Raycasts became my best friend to fix this by allowing rays to point down and touch the floor this allows the spider to scan the environment constantly while placing its feet in the positon of the rays creating realistic foot placement.</p>
@@ -73,19 +81,30 @@
         I found this project has improved my knowledge on character rigs and Inverse Kinematics, which I can and already have been able to transfer these skills into Maya for some of my other projects such as the <a href="">ATAT 3D Modelling Project.</a>
       </p>
       </div>
+      <p>Both of these models were taken from the Unity assets store I imported one into the game world with all its predefined keyframe animations, and imported another one with my Procedural Animation algorithm implemented onto it.
+      This gave me the opportunity to compare the animation styles, overall I believe the PA is miles better compared to the keyframe due to its lack of repetetive animations, it reacts well to the environment stepping on the blocks rather than clipping through and overall the Procedural Animation is so much more expressive making for a more exciting character.</p>
+      <div class="video1">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Qy0ZrijhF_w?si=Rdk3lXRLglGNqJo8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <h2>NEXT STEPS</H2>
+      <div class ="content1">
+      <p>The main focus of this project was the animation rather than the 3D models and environment, although this allows for alot of improvements into the future of this project.
+        As the code is quite versatile it can be used on alot of different rigs, this would work well for models in a Procedural world, full of different creatures and biomes allowing their models to adapt easily to the game world.
+        One of the biggest benefits to my Procedural Animation Alogrithm that it is compatilbe with keyframe, so to take this on further I have a few ideas of creating game characters walking animations procedurally while all other actions can be done with keyframe.
+      </p>
   </div>
+</div>
 
-  <div class="video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Qy0ZrijhF_w?si=Rdk3lXRLglGNqJo8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  </div>
+
 
   <div class="skills">
+        <a id="skills">
     <h1>SKILLS</h1>
     <h2>LANGUAGES AND SOFTWARE</h2>
     <li>Unity</li>
     <li>C#</li>
     <li>Animation and Rigging Package</li>
-    <h2>SKILLS LEARNT</h2>
+    <h2>SKILLS USED</h2>
     <li>Inverse Kinematics</li>
     <li>Rigging</li>
     <li>Constraints</li>
@@ -95,7 +114,9 @@
   </div>
 
   <div class="interests">
+          <a id="inspiration">
     <h1>INSPIRATION</h1>
+
     <div class ="movies">
     <a href="https://www.youtube.com/watch?v=S36CH4cbW1A"><img src= "images/thumb1.jpg" alt="Procedural Animation"></img></a>
     <a href="https://www.youtube.com/watch?v=Wx1s3CJ8NHw&t=692s"><img src= "images/thumb2.jpg" alt="Procedural Animation"></img>
