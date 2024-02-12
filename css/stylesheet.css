@@ -1,6 +1,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 h1{
   font-family: 'Oswald', sans-serif;
   font-weight:700;
@@ -50,7 +51,8 @@ li{
   padding: 16px;
   text-decoration: none;
   text-align: center;
-  font-family: "Verdana";
+  font-family: 'Oswald', sans-serif;
+  font-size: 27px;
 }
 
 /* Active/current link */
@@ -61,10 +63,22 @@ li{
 
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
-  background-color: #555;
+  background-color: #590755;
   color: white;
 }
-
+.sidebar h1{
+  font-family: 'Oswald', sans-serif;
+  font-size: 35px;
+  color: black;
+  text-align: center;
+}
+.sidebar img{
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 div.about {
   margin-left: 250px;
@@ -181,6 +195,9 @@ iframe{
     height: auto;
     position: relative;
   }
+  .sidebar img{
+    width: 40%;
+  }
   .sidebar a {float: left;}
   div.about {margin-left: 0;
   height: auto;}
@@ -203,7 +220,9 @@ iframe{
   .sidebar a {
     text-align: center;
     float: none;
-
+    }
+    .sidebar img{
+      width: 40%;
     }
     iframe {display: none;
   }
