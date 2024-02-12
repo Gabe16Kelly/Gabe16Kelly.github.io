@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+    <title>PARTICLES AND EXPLOSIONS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet">
+      <link href="css/normalize.css" rel="stylesheet">
+      <link href="css/stylesheet.css" rel="stylesheet /">
+</head>
+
+<body>
+
+  <!-- The sidebar -->
+  <div class="sidebar">
+    <a href="index.html">HOME</a>
+    <a href="#about">ABOUT</a>
+    <a href="#development">DEVELOPMENT</a>
+    <a href="#skills">SKILLS</a>
+    <a href="#showreel">SHOWREEL</a>
+  </div>
+
+  <!-- Page content -->
+      <a id="about">
+  <div class="about">
+
+<h1>PARTICLES AND EXPLOSIONS</h1>
+<h3>MAYA - PARTICLES - NCLOTH</h3>
+<br>
+<p>VFX is fun, while using particle systems in Maya I found more and more opportunities for exciting practical effects. With the help of particle emitters and nCloths, I was able to destroy my 3D models in a spectacular explosion-like motion.</p>
+</div>
+
+
+
+
+  <div class="project">
+    <div class="video1">
+      <p>The videos below show the outcomes of the particle experiments, although the animations are quite slow due to how ncloth animations are processed in Maya I believe when these types of animations are rendered the use of other VFX software like Houdini to speed up the animation and add fire and other particles could create a very impressive explosion.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/k9uDqNq-BiQ?si=IVRQEviDDs1F4bBb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dCSb4newd5c?si=j56hVJ-XaNS-wk3N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <a id="development">
+    <h1>DEVELOPMENT</h1>
+
+    <br>
+      <h2>IMPLEMENTATION</H2>
+      <div class ="content1">
+      <p>Although this project is quite small it taught me a lot of new skills in Maya. I utilised emitters by producing hundreds of particles inside of the model setting their velocity high in the instance they spawn in to allow for a dramatic burst. One major problem I had was when the particles spawned they would just fall and not burst out of the model this was because of the gravity which comes with the nucleus pulling everything down, so during the animation the gravity is null allowing for objects to fly away then I keyframed the gravity attribute at the end of the animation to slowly come back creating the illusion of objects falling making for a more realistic animation.
+      </p>
+      <img src= "images/part1.png" alt="Procedurals Animation"></img>
+      </div>
+      <div class ="content1">
+      <img src= "images/part8.png" alt="Procedurals Animation"></img>
+      <p>Making the objects explode was utilised by making them ncloths and through that activating tearable constraint, it took a while to get the correct properties for the ripping animation, luckily Maya comes with some material presets so to start I used 75% softSheetMetal and 25% honey to allow the particles to rip through easily but also give a little bit of a bounce when they fall. </p>
+      </div>
+      <div class ="content1">
+      <p>The explosion animation is very stylised, in my opinion, I believe this would work very well with a stop motion type animation where real-life effects may not be applicable. </p>
+      <img src= "images/part2.png" alt="Procedurals Animation"></img>
+
+      </div>
+</div>
+
+
+
+  <div class="skills">
+        <a id="skills">
+    <h1>SKILLS</h1>
+    <h2>LANGUAGES AND SOFTWARE</h2>
+    <li>Maya</li>
+    <h2>SKILLS LEARNT</h2>
+    <li>nCloths</li>
+    <li>Tearable Constraints</li>
+    <li>Particle Emitters</li>
+    <li>Particle Attributes</li>
+    <li>Radial Fields</li>
+    <li>Keyframing Attributes</li>
+    <br>
+  </div>
+
+  <div class="skills">
+        <a id="showreel">
+    <h1>SHOWREEL</h1>
+    <div class ="movies">
+
+      <img src= "images/part1.png" alt="Procedural Animation"></img>
+      <img src= "images/part2.png" alt="Procedural Animation"></img>
+      <img src= "images/part3.png" alt="Procedural Animation"></img>
+      <img src= "images/part4.png" alt="Procedural Animation"></img>
+      <img src= "images/part5.png" alt="Procedural Animation"></img>
+      <img src= "images/part6.png" alt="Procedural Animation"></img>
+      <img src= "images/part7.png" alt="Procedural Animation"></img>
+      <img src= "images/part8.png" alt="Procedural Animation"></img>
+      <img src= "images/part9.png" alt="Procedural Animation"></img>
+      <img src= "images/part10.png" alt="Procedural Animation"></img>
+  </div>
+  </div>
+
+</body>
+
+</html>
