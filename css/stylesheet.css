@@ -200,6 +200,9 @@ iframe{
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 700px) {
+  .reference h1{
+    font-size: 60px;
+  }
   .sidebar {
     width: 100%;
     height: auto;
@@ -235,9 +238,7 @@ iframe{
     .sidebar img{
       width: 40%;
     }
-    .reference h1{
-      font-size: 20px;
-    }
+
     iframe {display: none;
   }
 }
