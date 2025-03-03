@@ -235,6 +235,9 @@ iframe{
     .sidebar img{
       width: 40%;
     }
+    .reference h1{
+      font-size: 20px;
+    }
     iframe {display: none;
   }
 }
