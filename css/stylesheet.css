@@ -157,6 +157,12 @@ iframe{
     height: auto;
     border-bottom: 1px solid black;
   }
+  div.reference {
+    margin-left: 250px;
+    padding: 1px 30px;
+    height: auto;
+    border-bottom: 1px solid black;
+  }
 
 
 
@@ -185,6 +191,10 @@ iframe{
     width: 700px;
     height: auto;
   }
+  .graphic img{
+    width: 500px;
+    height: auto;
+  }
 
 
 
@@ -203,6 +213,7 @@ iframe{
   height: auto;}
   div.project {margin-left: 0;}
   div.skills {margin-left: 0;}
+  div.reference {margin-left: 0;}
   div.interests {margin-left: 0;}
   div.video1 {margin-left: 0;}
   div.movies {margin-left: 0;}
